@@ -131,7 +131,7 @@
 
 /* Completed */
 .list#completed-tasks .todo-text {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
