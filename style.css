@@ -17,7 +17,7 @@
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 .header {
     text-align: center;
 }
@@ -37,14 +37,14 @@
   display: flex;
 }
 .list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .todo, .section-title {
-  list-style:none;
+  list-style: none;
 }
 .input, .button, .todo-checkbox{
-  outline:none;
+  outline: none;
 }
 .button {
   background: none;
@@ -137,14 +137,14 @@
 
 /* Edit Task */
 .list .todo .input[type="text"] {
-  display:none
+  display: none
 }
 
 .list .todo.edit-mode .input[type="text"] {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .list .todo.edit-mode .todo-text {
-  display:none;
+  display: none;
 }
