@@ -39,7 +39,7 @@
   margin:0;
   padding: 0px;
 }
-.todo, h3 {
+.todo, .section-title {
   list-style:none;
 }
 .input, .button, .todo-checkbox{
@@ -58,8 +58,8 @@
   color: #3a3A3a;
 }
 /* Heading */
-h3,
-.section-add-item-header[for="new-task"] {
+.section-title,
+#new-item {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -85,7 +85,7 @@ h3,
 }
 
 /* New Task */
-.section-add-item-header[for="new-task"] {
+#new-item {
   display: block;
   margin: 0 0 20px;
 }

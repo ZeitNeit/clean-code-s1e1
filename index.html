@@ -14,13 +14,13 @@
     </div>
     <div class="main">
       <p id="section-add-item">
-        <label class="section-add-item-header" for="new-task">Add Item</label>
+        <label class="todo-text" id="new-item" for="new-task">Add Item</label>
         <div class="task-item">
           <input id="new-task" class="input task" type="text">
           <button class="button">Add</button>
         </div>
       </p>
-      <h3>Todo</h3>
+      <h3 class="section-title">Todo</h3>
       <ul class="list" id="incomplete-tasks">
         <li class="todo">
           <input class="todo-checkbox" type="checkbox">
@@ -38,7 +38,7 @@
           <button class="button delete"><img class="delete-icon" src="./remove.svg"></button>
         </li>
       </ul>
-      <h3>Completed</h3>
+      <h3 class="section-title">Completed</h3>
       <ul class="list" id="completed-tasks">
         <li class="todo">
           <input class="todo-checkbox" type="checkbox" checked>
